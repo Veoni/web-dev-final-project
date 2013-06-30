@@ -258,7 +258,7 @@ select {
 	line-height: 1;
 	font-size: 40px;
 	font-family: Helvetica, sans-serif;
-	color : #282828;
+	color : #339933;
 	font-weight: bold; 
 	}
 
@@ -268,7 +268,7 @@ select {
 
 #site-description {
 	margin: 0;
-	font-size: 120%;
+	font-size: 140%;
 	line-height: 1;
 	font-weight: normal; font-color: #282828;
 	font-family: 'Lato';
@@ -368,9 +368,9 @@ select {
 	z-index: 500;
 	font-size: 85%;
 	display: block;
-	background: #444;
+	background: #660033;
 	clear: both;
-	font-family: 'Cantata One', serif;
+	font-family:  Arial, serif;
 	font-weight: 400;
 	}
 
