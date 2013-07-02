@@ -54,7 +54,7 @@
 				$header_image = get_header_image();
 				if ( $header_image ) {
 					?>
-					<img id="header-img" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
+					<img id="header-img" src="http://localhost:8888/web-dev-final-project/wordpress/wp-content/uploads/2013/07/cropped-winebottle_300x200_edited-11.jpg" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="wine blottle" />
 					<?php
 				}
 				?>
