@@ -10,30 +10,29 @@ Template:       magazine-basic
 
 @import url("../magazine-basic/style.css");
 
-#site-title {
 
-	margin: 30px 0 10px;
-	line-height: 1;
-	font-size: 40px;
-	font-family: Helvetica, sans-serif;
-	color : #339933;
-	font-weight: bold; 
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, serif;
+	font-weight: 400;
+
 	}
 
-	#site-title a {
-		text-decoration: none;
-		}
 
-#site-description {
-	margin: 0;
-	font-size: 140%;
-	line-height: 1;
-	font-weight: normal; font-color: #282828;
-	font-family: 'Lato';
-	}
+#site-navigation, #site-sub-navigation {
+position: relative;
+z-index: 500;
+font-size: 90%;
+display: block;
+background: #444;
+clear: both;
+font-family: Arial, serif;
+font-weight: 400;
 
-	#site-title,
-	#site-description {
-		padding: 0 100px;
-		text-align: right;
-		}
+}
+
+#site-logo {
+padding: 5px 5px 0;
+display: inline-block;
+}
