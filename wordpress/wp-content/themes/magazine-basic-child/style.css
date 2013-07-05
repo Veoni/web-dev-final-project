@@ -14,7 +14,7 @@ Template:       magazine-basic
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Arial, serif;
+	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: 400;
 
 	}
@@ -23,16 +23,21 @@ h1, h2, h3, h4, h5, h6 {
 #site-navigation, #site-sub-navigation {
 position: relative;
 z-index: 500;
-font-size: 90%;
+font-size: 100%;
 display: block;
 background: #CD5B45;
 clear: both;
-font-family: Helvetica, serif;
-font-weight: 400;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: 300;
 
 }
 
 #site-logo {
 padding: 5px 5px 0;
 display: inline-block;
+}
+
+#footer {
+	background-color: #CD5B45;
+	font-family: Tahoma, Geneva, sans-serif;
 }
