@@ -1,4 +1,40 @@
 <?php
+
+add_action( 'init', 'register_cpt_wine' );
+
+function register_cpt_wine() {
+
+    $labels = array( 
+        'name' => _x( 'Wines', 'wine' ),
+        'singular_name' => _x( 'Wine', 'wine' ),
+        'add_new' => _x( 'Add New', 'wine' ),
+        'add_new_item' => _x( 'Add New Wine', 'wine' ),
+        'edit_item' => _x( 'Edit Wine', 'wine' ),
+        'new_item' => _x( 'New Wine', 'wine' ),
+        'view_item' => _x( 'View Wine', 'wine' ),
+        'search_items' => _x( 'Search Wines', 'wine' ),
+        'not_found' => _x( 'No wines found', 'wine' ),
+        'not_found_in_trash' => _x( 'No wines found in Trash', 'wine' ),
+        'parent_item_colon' => _x( 'Parent Wine:', 'wine' ),
+        'menu_name' => _x( 'Wines', 'wine' ),
+    );
+
+    $args = array( 
+		'labels' 		=> $labels,
+		'public' 		=> true,
+		'menu_position' => 20,
+		'has_archive' 	=> true,
+		'rewrite'		=> array( 'slug' => 'wines' ),
+		'supports' 		=> array( 'title', 'thumbnail', 'editor' )
+
+
+    );
+
+    register_post_type( 'wine', $args );
+}
+
+
+
 if ( ! isset( $content_width ) )
 	$content_width = 560;
 
