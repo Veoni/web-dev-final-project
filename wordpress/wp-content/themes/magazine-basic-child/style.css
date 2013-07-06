@@ -25,7 +25,7 @@ position: relative;
 z-index: 500;
 font-size: 100%;
 display: block;
-background: #CD5B45;
+background: #668B8B;
 clear: both;
 font-family: Tahoma, Geneva, sans-serif;
 font-weight: 300;
@@ -38,6 +38,6 @@ display: inline-block;
 }
 
 #footer {
-	background-color: #CD5B45;
+	background-color: #668B8B;
 	font-family: Tahoma, Geneva, sans-serif;
 }
