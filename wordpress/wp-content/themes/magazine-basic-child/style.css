@@ -23,18 +23,18 @@ h1, h2, h3, h4, h5, h6 {
 #site-navigation, #site-sub-navigation {
 position: relative;
 z-index: 500;
-font-size: 100%;
+font-size: 85%;
 display: block;
-background: #668B8B;
+background: #800000;
 clear: both;
-font-family: Tahoma, Geneva, sans-serif;
+font-family: Arial, sans-serif;
 font-weight: 300;
 
 }
 
 #site-logo {
-padding: 5px 5px 0;
-display: inline-block;
+padding: 0px 0px 0;
+
 }
 
 .widget {
@@ -45,7 +45,9 @@ border: 1px solid #ddd;
 font-size: 100%;
 box-shadow: 2px 2px 0 r
 
+}
+
 #footer {
-	background-color: #668B8B;
-	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #800000;
+	font-family: Arial, sans-serif;
 }
