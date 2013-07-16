@@ -21,16 +21,25 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #site-navigation, #site-sub-navigation {
-position: relative;
+position: center;
 z-index: 500;
 font-size: 85%;
 display: block;
-background: #800000;
+background: #8B7D6B;
 clear: both;
 font-family: Arial, sans-serif;
 font-weight: 300;
 
 }
+
+#site-navigation li a {
+color: #FFFFFF;
+padding: 5px 15px;
+display: inline-block;
+text-decoration: none;	
+
+}
+
 
 #site-logo {
 padding: 0px 0px 0;
@@ -48,6 +57,6 @@ box-shadow: 2px 2px 0 r
 }
 
 #footer {
-	background-color: #800000;
+	background-color: #8B7D6B;
 	font-family: Arial, sans-serif;
 }
