@@ -43,7 +43,6 @@ function sv_register_cpt_wine() {
 }
 
 /*
-Create custom taxonomy for year
 @Wine
 */
 
