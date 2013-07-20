@@ -15,10 +15,17 @@ Template:       magazine-basic
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+}
 
-	}
+.entry-title a {
+	font-family: Arial, sans-serif;
+	font-size: 75%;
+}
 
+h3.widget-title {
+	font-family: Arial, sans-serif;
+}
 
 #site-navigation, #site-sub-navigation {
 	position: center;
@@ -29,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 	font-family: Arial, sans-serif;
 	font-weight: 300;
-
 }
 
 #site-navigation li a {
@@ -40,21 +46,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, sans-serif;
 	float: center;
 	height: 20px;
-
+	text-shadow: 1px 1px 0 #000;
 }
-
 
 #site-navigation li:hover {
 	background: #696969;
-
 }
-
 
 #site-logo {
 	padding: 0px 0px 0;
-
 }
 
+a.more-link {
+	background: #696969;
+	box-shadow: 1px 1px 0 #eee;
+	border: 1px solid #eee !important;
+}
 
 .widget {
 	margin-bottom: 30px;
@@ -63,11 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #ddd;
 	font-size: 100%;
 	box-shadow: 2px 2px 0 r
-
 }
 
 #footer {
 	background-color: #660000;
 	font-family: Arial, sans-serif;
-	
+	text-shadow: none;
 }
+
