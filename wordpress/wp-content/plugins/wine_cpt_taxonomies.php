@@ -43,38 +43,6 @@ function sv_register_cpt_wine() {
 }
 
 /*
-@Wine
-*/
-
-add_action( 'init', 'sv_year_register_wine_taxonomies', 0 );
-
-function sv_year_register_wine_taxonomies() {
-    // Add new taxonomy, keep it non-hierarchical (like tags)
-    $labels = array(
-        'name'                          => __( 'Year', 'year' ),
-        'singular_name'                 => __( 'Year', 'year' ),
-        'search_items'                  => __( 'Search Years', 'year' ),
-        'all_items'                     => __( 'All Years', 'year' ),
-        'edit_item'                     => __( 'Edit Year', 'year' ), 
-        'update_item'                   => __( 'Update Year', 'year' ),
-        'add_new_item'                  => __( 'Add New Year', 'year' ),
-        'new_item_name'                 => __( 'New Year', 'year' ),
-        'separate_items_with_commas'    => __( 'Separate years with commas', 'year' ),
-        'menu_name'                     => __( 'Year', 'year' ),
-    );  
-
-    register_taxonomy( 'year', array( 'wine' ), array(
-        'hierarchical'      => false,
-        'labels'            => $labels,
-        'show_ui'           => true,
-        'show_admin_column' => true,
-        'query_var'         => true,
-        'rewrite'           => array( 'slug' => 'year' ),
-    ));
-
-}
-
-/*
 Create custom taxonomy for region
 @Wine
 */
