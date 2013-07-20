@@ -21,51 +21,53 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #site-navigation, #site-sub-navigation {
-position: center;
-z-index: 500;
-font-size: 100%;
-display: block;
-background: #660000;
-clear: both;
-font-family: Arial, sans-serif;
-font-weight: 300;
+	position: center;
+	z-index: 500;
+	font-size: 75%;
+	display: block;
+	background: #660000;
+	clear: both;
+	font-family: Arial, sans-serif;
+	font-weight: 300;
 
 }
 
 #site-navigation li a {
-color: #fafffc;
-padding: 5px 15px;
-display: inline-block;
-text-decoration: none;
-font-family: Arial, sans-serif;
-float: center;
-height: 35px;
+	color: #fafffc;
+	padding: 5px 15px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	float: center;
+	height: 20px;
 
 }
 
 
 #site-navigation li:hover {
-background: #3b3630;
+	background: #696969;
+
 }
 
 
 #site-logo {
-padding: 0px 0px 0;
+	padding: 0px 0px 0;
 
 }
 
 
 .widget {
-margin-bottom: 30px;
-width: 100%;
-background: url(library/images/bg-hatch.gif);
-border: 1px solid #ddd;
-font-size: 100%;
-box-shadow: 2px 2px 0 r
+	margin-bottom: 30px;
+	width: 100%;
+	background: url(library/images/bg-hatch.gif);
+	border: 1px solid #ddd;
+	font-size: 100%;
+	box-shadow: 2px 2px 0 r
 
 }
 
 #footer {
-	background-color: #89463e;
+	background-color: #660000;
 	font-family: Arial, sans-serif;
+	
 }
