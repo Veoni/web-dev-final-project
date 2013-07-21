@@ -23,9 +23,29 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 75%;
 }
 
-h3.widget-title {
-	font-family: Arial, sans-serif;
-}
+
+.widget {
+	margin-bottom: 30px;
+	width: 100%;
+	background: url(library/images/bg-hatch.gif);
+	border: none;
+	font-size: 90%;
+	box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+	}
+
+	.widget-title,
+	.header-widget-title {
+		font-size: 95%;
+		margin-top: 0;
+		line-height: 1.2;
+		border-bottom: 1px solid #ddd;
+		padding: 10px 20px;
+		-moz-box-shadow: 0 1px 0 #fff;
+		-webkit-box-shadow: 0 1px 0 #fff;
+		box-shadow: 0 1px 0 #fff;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 0 #fff;
+		}
 
 #site-navigation, #site-sub-navigation {
 	position: center;
@@ -71,6 +91,11 @@ a.more-link {
 	font-size: 100%;
 	box-shadow: 2px 2px 0 r
 }
+
+article.error404 .entry-title {
+	font-size: 300%;
+	text-align: center;
+	}
 
 #footer {
 	background-color: #660000;
