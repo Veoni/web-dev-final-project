@@ -16,19 +16,60 @@ Template:       magazine-basic
 h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, sans-serif;
 	font-weight: 300;
-}
+	}
 
 .entry-title a {
 	font-family: Arial, sans-serif;
 	font-size: 75%;
-}
+	}
 
+#site-navigation, #site-sub-navigation {
+	position: center;
+	z-index: 500;
+	font-size: 95%;
+	display: block;
+	background: #B4CDCD;
+	clear: both;
+	font-family: Arial, sans-serif;
+	font-weight: 300;
+	}
+
+	#site-navigation li a {
+		color: #333;
+		padding: 5px 15px;
+		display: inline-block;
+		text-decoration: none;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		float: center;
+		height: 30px;
+		text-shadow: none;
+		}
+
+	#site-navigation li:hover {
+		background: #C2C2C2;
+		}
+
+#site-logo {
+	padding: 0px 0px 0;
+	}
+
+a.more-link {
+	background: #696969;
+	box-shadow: 1px 1px 0 #eee;
+	border: 1px solid #eee !important;
+	}
+
+article.error404 .entry-title {
+	font-size: 100%;
+	text-align: center;
+	}
 
 .widget {
 	margin-bottom: 30px;
 	width: 100%;
 	background: url(library/images/bg-hatch.gif);
-	border: none;
+	border: 1px solid #ddd;
 	font-size: 90%;
 	box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
 	}
@@ -47,59 +88,39 @@ h1, h2, h3, h4, h5, h6 {
 		text-shadow: 1px 1px 0 #fff;
 		}
 
-#site-navigation, #site-sub-navigation {
-	position: center;
-	z-index: 500;
-	font-size: 75%;
-	display: block;
-	background: #660000;
-	clear: both;
-	font-family: Arial, sans-serif;
-	font-weight: 300;
-}
+	.widget .textwidget {
+		padding: 0 20px;
+		}
 
-#site-navigation li a {
-	color: #fafffc;
-	padding: 5px 15px;
-	display: inline-block;
-	text-decoration: none;
-	font-family: Arial, sans-serif;
-	float: center;
-	height: 20px;
-	text-shadow: 1px 1px 0 #000;
-}
+		.widget p a,
+		.home-widget a {
+			text-decoration: none;
+			border-bottom: 1px dotted;
+			}
 
-#site-navigation li:hover {
-	background: #696969;
-}
+	.widget ul {
+		padding: 0 20px 0 40px;
+		}
 
-#site-logo {
-	padding: 0px 0px 0;
-}
-
-a.more-link {
-	background: #696969;
-	box-shadow: 1px 1px 0 #eee;
-	border: 1px solid #eee !important;
-}
-
-.widget {
-	margin-bottom: 30px;
-	width: 100%;
-	background: url(library/images/bg-hatch.gif);
-	border: 1px solid #ddd;
-	font-size: 100%;
-	box-shadow: 2px 2px 0 r
-}
-
-article.error404 .entry-title {
-	font-size: 300%;
-	text-align: center;
-	}
+	.widget ul li a {
+		text-decoration: none;
+		-moz-transition: margin .15s ease-in-out;
+		-webkit-transition: margin .15s ease-in-out;
+		transition: margin .15s ease-in-out;
+		}
 
 #footer {
-	background-color: #660000;
+	background-color: #B4CDCD;
+	color: #262626;
 	font-family: Arial, sans-serif;
 	text-shadow: none;
-}
+	font-weight: bold;
+	}
+
+	#footer a {
+	background-color: #B4CDCD;
+	color: #333;
+	font-family: Arial, sans-serif;
+	text-shadow: none;
+	}
 
