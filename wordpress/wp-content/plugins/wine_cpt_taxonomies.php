@@ -76,39 +76,37 @@ function sv_region_register_wine_taxonomies() {
 }
 
 /*
-Create custom taxonomy for year
+Create custom taxonomy for vintage
 @Wine
 */
 
-/*
-add_action( 'init', 'sv_year_register_wine_taxonomies', 0 );
+add_action( 'init', 'sv_vintage_register_wine_taxonomies', 0 );
 
-function sv_year_register_wine_taxonomies() {
+function sv_vintage_register_wine_taxonomies() {
     // Add new taxonomy, keep it non-hierarchical (like tags)
     $labels = array(
-        'name'                          => __( 'Year', 'year' ),
-        'singular_name'                 => __( 'Years', 'year' ),
-        'search_items'                  => __( 'Search Years', 'year' ),
-        'all_items'                     => __( 'All Years', 'year' ),
-        'edit_item'                     => __( 'Edit Year', 'year' ), 
-        'update_item'                   => __( 'Update Year', 'year' ),
-        'add_new_item'                  => __( 'Add New Year', 'year' ),
-        'new_item_name'                 => __( 'New Year Name', 'year' ),
-        'separate_items_with_commas'    => __( 'Separate years with commas', 'year' ),
-        'menu_name'                     => __( 'Year', 'year' ),
+        'name'                          => __( 'Vintage', 'vintage' ),
+        'singular_name'                 => __( 'Vintages', 'vintage' ),
+        'search_items'                  => __( 'Search Vintages', 'vintage' ),
+        'all_items'                     => __( 'All Vintages', 'vintage' ),
+        'edit_item'                     => __( 'Edit Vintage', 'vintage' ), 
+        'update_item'                   => __( 'Update Vintage', 'vintage' ),
+        'add_new_item'                  => __( 'Add New Vintage', 'vintage' ),
+        'new_item_name'                 => __( 'New Vintage Name', 'vintage' ),
+        'separate_items_with_commas'    => __( 'Separate vintages with commas', 'vintage' ),
+        'menu_name'                     => __( 'Vintage', 'vintage' ),
     );  
 
 
-    register_taxonomy( 'year', array( 'wine' ), array(
+    register_taxonomy( 'vintage', array( 'wine' ), array(
         'hierarchical'      => false,
         'labels'            => $labels,
         'show_ui'           => true,
         'show_admin_column' => true,
         'query_var'         => true,
-        'rewrite'           => array( 'slug' => 'year' ),
+        'rewrite'           => array( 'slug' => 'vintage' ),
     ));
 }
-*/
 
 add_filter( 'pre_get_posts', 'my_get_posts' );
 function my_get_posts( $query ) {
