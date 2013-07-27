@@ -21,8 +21,7 @@
 		<div class="row">
 
 			<p class="copyright c12">
-				<span class="fl">Thanks for visiting! &copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php echo bloginfo( 'name' ); ?></a></span>
-				<span class="fr"><strong><a href="http://wordpress.org">Proudly powered by WordPress</a></strong></span>
+				<span class="fl"><a href="<?php echo home_url(); ?>"><?php echo bloginfo( 'name' ); ?></a></span>
 			</p><!-- .c12 -->
 
 		</div><!-- .row -->
