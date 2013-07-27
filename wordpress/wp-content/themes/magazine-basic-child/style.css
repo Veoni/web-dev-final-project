@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 75%;
 	}
 
+#site-title a {
+	font-size: 150%;
+	font-family: Arial, sans-serif;
+	}
+
 #site-navigation, #site-sub-navigation {
 	position: center;
 	z-index: 500;
