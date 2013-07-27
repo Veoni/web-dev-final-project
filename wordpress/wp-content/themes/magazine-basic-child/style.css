@@ -74,9 +74,9 @@ article.error404 .entry-title {
 	margin-bottom: 30px;
 	width: 100%;
 	background: url(library/images/bg-hatch.gif);
-	border: 1px solid #ddd;
+	border: none;
 	font-size: 90%;
-	box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+	box-shadow: none;
 	}
 
 	.widget-title,
@@ -84,7 +84,7 @@ article.error404 .entry-title {
 		font-size: 95%;
 		margin-top: 0;
 		line-height: 1.2;
-		border-bottom: 1px solid #ddd;
+		border-bottom: none;
 		padding: 10px 20px;
 		-moz-box-shadow: 0 1px 0 #fff;
 		-webkit-box-shadow: 0 1px 0 #fff;
@@ -125,7 +125,9 @@ article.error404 .entry-title {
 	#footer a {
 	background-color: #B4CDCD;
 	color: #333;
+	font-size: 125%;
 	font-family: Arial, sans-serif;
 	text-shadow: none;
+	text-transform: uppercase;
 	}
 
